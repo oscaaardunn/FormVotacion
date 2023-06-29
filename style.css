@@ -1,0 +1,79 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+form {
+    box-shadow: 0 0 30px rgb(0, 0, 0, 0.1);
+    padding: 50px 35px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 370;
+
+}
+
+form h2 {
+    font-size: 37px;
+    color: black;
+    margin: 0;
+}
+
+.input-wrapper{
+    position: relative;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+input {
+    color: black;
+    padding: 20px 16px 20px 70px;
+    width: 100%;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: 0 0 20px rgba(15, 221, 108, 0.9);
+    outline: none;
+    font-size: 18px;
+}
+
+select {
+    color: black;
+    padding: 20px 16px 20px 70px;
+    width: 100%;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: 0 0 20px rgba(15, 221, 108, 0.9);
+    outline: none;
+    font-size: 18px;
+}
+
+
+input::placeholder {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.btn {
+    padding: 20px;
+    background: liner linear-gradient(85deg, rgb(67, 234, 38)20%, rgb(206, 206, 34)100%);
+    box-shadow: 0 0 25px rgba(3, 237, 58, 0.9); 
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(67, 250, 20);
+}
+
+.success {
+    position: absolute;
+    top: 50px;
+}
